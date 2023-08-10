@@ -1,0 +1,165 @@
+body {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Seas;
+  src: url(/SEASRN__.ttf);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  background: #947ba5;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.card {
+  background-color: #ef3349;
+  border-radius: 10px;
+  filter: drop-shadow(-8px 8px 0px #d90429);
+  transition: ease-in all 0.1s;
+}
+
+.card:hover {
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.p-5 {
+  padding: 3rem;
+}
+
+.font-example-1 {
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+
+.text-label {
+  font-family: sans-serif;
+  font-size: 10px;
+  font-weight: lighter;
+}
+
+.color-example-1 {
+  color: #edf2f4;
+}
+
+.b-b {
+  border-bottom: 1px solid #edf2f4;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.gap-3 {
+  gap: 1rem;
+}
+
+.gap-1 {
+  gap: 0.2rem;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.title-container-ex2 {
+  font-family: sans-serif;
+  padding: 7px 20px;
+  background-color: whitesmoke;
+  color: #ef3349;
+  border-radius: 4px;
+  font-size: 20px;
+}
+
+.inside-container-ex2 {
+  padding: 8px;
+  background: whitesmoke;
+  color: #ef3349;
+  font-family: sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  align-self: center;
+}
+
+.hr-ex2 {
+  width: 80%;
+  border-bottom: 2px solid #ef3349;
+}
+
+.font-size-xl {
+  font-size: 2rem;
+}
+
+.btn-ex2 {
+  background: #ef3349;
+  padding: 5px;
+  color: whitesmoke;
+  border-radius: 10px;
+  font-size: 8px;
+  width: 30%;
+  font-weight: bold;
+  user-select: none;
+}
+
+.btn-ex2:hover {
+  background: #f34c5f;
+}
+
+.input-ex2 {
+  background: whitesmoke;
+  padding: 4px;
+  border-radius: 4px;
+  border: 2px solid #ef3349;
+  color: #ef3349;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  outline-width: 0px;
+}
+
+.output-ex2 {
+  width: 80%;
+  align-self: center;
+  background: #f34c5f;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 4px;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
